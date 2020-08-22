@@ -45,7 +45,7 @@ def stop():
     
 def timer():
     timer_time = int(input("Input time in Minutes:"))
-    print("The computer will shutdown after "+ str(timer_time)+" Minutes")
+    print("The computer will shutdown after "+ magenta(str(timer_time))+reset+" Minutes")
     os.system("shutdown -P " +str(timer_time))
     
 def power_off():
